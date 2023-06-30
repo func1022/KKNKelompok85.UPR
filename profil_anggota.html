@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KKN | Kelompok 85</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="assets/vendors/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/fun/logo/logo.jpg" />
+
+    <style type="text/css">
+    
+/*    <!-- css buatan sendiri -->*/
+    <style type="text/css">
+    #fuanni{
+      width: 15rem;
+      height: auto;
+      border-radius: 50%;
+    }
+
+
+      .slider-area {
+        border-radius: 1rem;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 2rem;
+      }
+
+      .slider-area::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size:;
+        z-index: -1;
+        opacity: 0.7;
+      }
+
+      .slider-area video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+
+      }
+
+      #background-video{
+        object-fit: cover;
+      }
+
+      @keyframes loop-video {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @media (max-width: 767px) {
+        .slider-area video {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .slider-area{
+        background-size: cover;
+      }
+
+
+      .slider-area::before {
+        animation: loop-video 10s linear infinite;
+      }
+
+      .TulisanPertama{
+        color: white;
+        padding: 0.5rem;
+        font-size: 3rem;
+      }
+      .TulisanKedua{
+        color: white;
+        font-size: 2rem;
+      }
+      .spanwarnaorange{
+        color: orange;
+      }
+      .ukuranimg{
+        width: ;
+        height: ;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          <a class="sidebar-brand brand-logo" href="index.html"><img src="assets/images/fun/logo/kelompok85.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="#"><img src="assets/images/fun/logo/kelompok85.png" alt="logo" /></a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="assets/images/fun/logo/logo.jpg" alt="">
+                  <span class="count bg-success"></span>
+                </div>
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">Desa Bukit Liti</h5>
+                  <span>Kec. Kayahan Tengah</span>
+                  <span>Kab. Pulang Pisau</span>
+                </div>
+              </div>
+              <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
+              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
+                <a href="https://instagram.com/kkn.kelompok_85?igshid=NGExMmI2YTkyZg==" target="_blank" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-settings text-primary"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Instagram</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="https://goo.gl/maps/rKVveMdhmZyixU32A" target="_blank" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-onepassword  text-info"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Maps</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-calendar-today text-success"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">kknkelompok85.2023@gmail.com</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Menu</span>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="index.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+              <span class="menu-title">Home</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="profil_anggota.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-laptop"></i>
+              </span>
+              <span class="menu-title">Profil Anggota</span>
+              <!-- <i class="menu-arrow"></i> -->
+            </a>
+           <!--  <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+              </ul>
+            </div> -->
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="program_kerja.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-playlist-play"></i>
+              </span>
+              <span class="menu-title">Program Kerja</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="kegiatan.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-table-large"></i>
+              </span>
+              <span class="menu-title">Kegiatan</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="dokumentasi.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-chart-bar"></i>
+              </span>
+              <span class="menu-title">Dokumentasi</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="contact.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-contacts"></i>
+              </span>
+              <span class="menu-title">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="mdi mdi-bell"></i>
+                  <span class="count bg-danger"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                  <h6 class="p-3 mb-0">Whats New?</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-calendar text-success"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Kegiatan Hari Ini</p>
+                      <p class="text-muted ellipsis mb-0"> Just a reminder that you have an event today </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-settings text-danger"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Primary</p>
+                      <p class="text-muted ellipsis mb-0"> Acara Penyambutan Mahasiswa KKN </p>
+                    </div>
+                  </a>
+              </li>
+              <li class="nav-item dropdown">
+                  <div class="navbar-profile">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">KKN Reguler Periode 1</p>
+                    <!-- <i class="mdi mdi-menu-down d-none d-sm-block"></i> -->
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="assets/images/fun/logo/logo.jpg" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Kelompok <span class="spanwarnaorange">85</span></p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+
+        <div class="main-panel">
+          <div class="content-wrapper">            
+             <!-- Pengurus Inti -->
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h4 class="spanwarnaorange" style="text-align:center;font-size: 2rem;">DOSEN PENDAMPING LAPANGAN</h4>
+              </div>
+            </div>
+            <!-- DPL -->
+            <div class="row justify-content-center">
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/ariesta-lestari-1.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex d-md-block d-xl-flex flex-row py-3 px-4 px-md-3 px-xl-4 rounded mt-3">
+                      <div class="text-md-center text-xl-center" style="padding-left: 1rem;">
+                        <h4 class="mb-1">Ariesta Lestari, S.Kom., M.Cs., Ph.D</h4>
+                        <p class="spanwarnaorange">Fakultas Teknik</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pengurus Inti -->
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h4 class="spanwarnaorange" style="text-align:center;font-size: 2rem;">ANGGOTA KELOMPOK 85</h4>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/Fuanni.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">FUANNI</h4>
+                        <p class="spanwarnaorange">Fakultas Ekonomi Bisnis</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/aulia.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">AULIA PUTRI</h4>
+                        <p class="spanwarnaorange">Fakultas Keguruan dan Ilmu Pendidikan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/mona.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">MONA ELISA </h4>
+                        <p class="spanwarnaorange">Fakultas Ekonomi Bisnis</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/ricky.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">RICKY TRIADY</h4>
+                        <p class="spanwarnaorange">Fakultas Teknik</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/nueng.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">LUHELWAN NUENG</h4>
+                        <p class="spanwarnaorange">Fakultas Pertanian</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/supi.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">AHMAT SUPIANI</h4>
+                        <p class="spanwarnaorange">Fakultas Keguruan dan Ilmu Pendidikan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/eldra.jpeg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">ELDRA TIARI</h4>
+                        <p class="spanwarnaorange">Fakultas Ekonomi Bisnis</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/tria.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">TRIA DEWI</h4>
+                        <p class="spanwarnaorange">Fakultas Keguruan dan Ilmu Pendidikan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/preti.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">PRETI PRISTIANA</h4>
+                        <p class="spanwarnaorange">Fakultas Ekonomi Bisnis</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/miranda.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">MIRANDA</h4>
+                        <p class="spanwarnaorange">Fakultas Keguruan dan Ilmu Pendidikan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/siti.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">SITI HAJAR</h4>
+                        <p class="spanwarnaorange">Fakultas Pertanian</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/zefan.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">ZEFANYA R.SINAGA</h4>
+                        <p class="spanwarnaorange">Fakultas Hukum</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/astry.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">EMILIANA ASTRY MARU</h4>
+                        <p class="spanwarnaorange">Fakultas Keguruan dan Ilmu Pendidikan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/alifia.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">ALIFIA AZHARI</h4>
+                        <p class="spanwarnaorange">Fakultas Ilmu Sosial dan Politik</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="assets/images/fun/anggota/januar.jpg" style="width: 100%; height: auto; border-radius: 1rem;">
+                    <div class="bg-gray-dark d-flex flex-column py-3 px-4 rounded mt-3" style="text-align: center;">
+                      <div class="text-md-center text-xl-center">
+                        <h4 class="mb-1">JANUARDI BANA</h4>
+                        <p class="spanwarnaorange">Fakultas Keguruan dan Ilmu Pendidikan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Qoutes -->
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <h4 class="spanwarnaorange" style="text-align:center;font-size: 2rem;">OURS QOUTES</h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel" id="owl-carousel-basic">
+                      <div class="item">
+                        <img class="ukuranimg" src="assets/images/fun/anggota/Fuanni.jpg" alt="">
+                        <div class="caption">You Can, Do It, You Like, Do It, You Happy, Do It.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/aulia.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/mona.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/ricky.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/nueng.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/supi.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/eldra.jpeg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/tria.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/preti.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/miranda.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/siti.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/zefan.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/astry.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/alifia.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                      <div class="item">
+                        <img src="assets/images/fun/anggota/januar.jpg" alt="">
+                        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin templates</a> from Bootstrapdash.com</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+      </div>
+    </div>
+
+    
+            
+      <!-- content-wrapper ends -->
+      <!-- partial:partials/_footer.html -->
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KKN Kelompok 85</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> From <a href="#" target="_blank">Universitas Palangka Raya</a></span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="assets/js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+    <!-- JS Buatan Sendiri -->
+    <script type="text/javascript">
+      var video = document.getElementById("background-video");
+
+        video.addEventListener('ended', function() {
+          video.currentTime = 0;
+          video.play();
+        });
+
+        video.play();
+
+      function setVideoDimensions() {
+      var video = document.getElementById('background-video');
+      var videoContainer = video.parentNode;
+      
+      var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+      
+      var videoWidth, videoHeight;
+      
+      if (windowWidth / windowHeight > video.videoWidth / video.videoHeight) {
+        videoWidth = windowWidth;
+        videoHeight = windowWidth * (video.videoHeight / video.videoWidth);
+      } else {
+        videoWidth = windowHeight * (video.videoWidth / video.videoHeight);
+        videoHeight = windowHeight;
+      }
+      
+      video.style.width = videoWidth + 'px';
+      video.style.height = videoHeight + 'px';
+      videoContainer.style.width = videoWidth + 'px';
+      videoContainer.style.height = videoHeight + 'px';
+    }
+
+    window.addEventListener('resize', setVideoDimensions);
+    setVideoDimensions();
+
+
+
+
+    </script>
+
+  </body>
+</html>
